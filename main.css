@@ -1,0 +1,28 @@
+.containerMovieItems {
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    
+    margin: 0px auto;
+    transform: translateY(5%);
+    
+}
+
+.item {
+    border-radius: 10px;
+    width: 300px;
+    border:2px solid black;
+    padding: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    font-weight: bold;
+}
+
+img {
+    margin-bottom: 20px;
+}
